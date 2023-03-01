@@ -9,7 +9,7 @@ const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const heroImageUrl = `/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `/heroes/${id}.jpg`;
 
   const charactersByHero = <p>{characters}</p>;
 
